@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m 'first commit'
+git remote add origin 'https://github.com/xiao-nx/RK4DNN_for_covidODEs.git'
+git pull origin main
+git push -u origin main
+
+
+git add .
+git commit -m 'second commit'
+git pull origin main
+git push -u origin main

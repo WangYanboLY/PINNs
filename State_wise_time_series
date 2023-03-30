@@ -1,0 +1,32 @@
+import os
+import csv
+
+# 所有州的名称
+STATES = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+d
+# 要处理的CSV文件所在的目录
+CSV_DIR = "/Users/wangyanbo/PINNs/COVID-19-master-2/csse_covid_19_data/csse_covid_19_daily_reports_us"
+
+# 将数据按州分组
+state_data = {}
+for state in STATES:
+    state_data[state] = []
+
+    for file in os.listdir(CSV_DIR):
+        if not file.endswith(".csv"):
+            continue
+
+        with open(os.path.join(CSV_DIR, file), "r") as f:
+            reader = csv.reader(f)
+            for row in reader:
+                if row[0].lower() == state.lower():
+                    state_data[state].append(row)
+
+# 生成CSV文件
+for state in STATES:
+    with open(f"{state}.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Province_State", "Country_Region", "Last_Update", "Lat", "Long_", "Confirmed", "Deaths", "Recovered", "Active", "FIPS", "Incident_Rate", "Total_Test_Results", "People_Hospitalized", "Case_Fatality_Ratio", "UID", "ISO3", "Testing_Rate", "Hospitalization_Rate", "Date", "People_Tested", "Mortality_Rate"])  # 列头
+
+        for row in state_data[state]:
+            writer.writerow(row)

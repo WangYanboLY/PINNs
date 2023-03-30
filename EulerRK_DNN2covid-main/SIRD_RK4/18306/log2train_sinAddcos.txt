@@ -1,0 +1,45 @@
+Equation name for problem: minnesota
+
+The type for iteration: rk4_iter
+
+Network model of dealing with parameters: Fourier_DNN
+
+The input activate function: [sin;cos]
+
+The hidden-layer activate function: sinAddcos
+
+hidden layers for parameters: (40, 50, 25, 25, 10)
+
+The scale for frequency: [ 1  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28]
+
+Repeat the high-frequency scale or not for NN: False
+
+The type for Loss function: L2_loss
+
+The training model for all networks: union_training
+
+optimizer:Adam
+
+Init learning rate: 0.005
+
+no activate the stop_step and given_step = default: 10000
+
+Initial penalty for difference of predict and true: 10
+
+Increasing penalty for predict and true!!!
+
+The model of regular weights and biases: L0
+
+Regularizing scale for weights and biases: 1e-05
+
+Size 2 training set: 280
+
+Batch-size 2 training: 30
+
+Batch-size 2 testing: 7
+
+Utilizing scale-factor population(less than total population) to normalize data!
+
+The normalization population:10000 
+

@@ -1,0 +1,1698 @@
+Equation name for problem: minnesota
+
+The type for iteration: rk4_iter
+
+Network model of dealing with parameters: Fourier_DNN
+
+The input activate function: [sin;cos]
+
+The hidden-layer activate function: sinAddcos
+
+hidden layers for parameters: (40, 50, 25, 25, 10)
+
+The scale for frequency: [ 1  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28]
+
+Repeat the high-frequency scale or not for NN: False
+
+The type for Loss function: L2_loss
+
+The training model for all networks: union_training
+
+optimizer:Adam
+
+Init learning rate: 0.005
+
+no activate the stop_step and given_step = default: 10000
+
+Initial penalty for difference of predict and true: 10
+
+Increasing penalty for predict and true!!!
+
+The model of regular weights and biases: L0
+
+Regularizing scale for weights and biases: 1e-05
+
+Size 2 training set: 280
+
+Batch-size 2 training: 30
+
+Batch-size 2 testing: 7
+
+Utilizing scale-factor population(less than total population) to normalize data!
+
+The normalization population:10000 
+
+train epoch: 0,time: 0.0331 
+learning rate: 0.005000000000 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.04012431 
+loss for I to train: 0.10573786 
+loss for R to train: 0.00072613 
+loss for D to train: 0.00000125 
+total loss to train: 0.15314846 
+
+MSE of S to testing: 7.99014616 
+MSE of I to testing: 12.96291256 
+MSE of R to testing: 0.19530268 
+MSE of D to testing: 0.00027178 
+
+REL of S to testing: 0.00008783 
+REL of I to testing: 5.34327936 
+REL of R to testing: 0.00011472 
+REL of D to testing: 0.00085233 
+
+MSE for S with fixed parameters: 6.03682280 
+MSE for I with fixed parameters: 9.50496769 
+MSE for R with fixed parameters: 0.14924549 
+MSE for D with fixed parameters: 0.00013993 
+
+REL for S with fixed parameters: 0.00006636 
+REL for I with fixed parameters: 3.91792345 
+REL for R with fixed parameters: 0.00008767 
+REL for D with fixed parameters: 0.00043884 
+
+train epoch: 100,time: 2.4343 
+learning rate: 0.004405478467 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00083783 
+loss for I to train: 0.00122967 
+loss for R to train: 0.00094325 
+loss for D to train: 0.00000185 
+total loss to train: 0.01153698 
+
+MSE of S to testing: 0.10072275 
+MSE of I to testing: 0.05230233 
+MSE of R to testing: 0.02020298 
+MSE of D to testing: 0.00011618 
+
+REL of S to testing: 0.00000111 
+REL of I to testing: 0.02155889 
+REL of R to testing: 0.00001187 
+REL of D to testing: 0.00036436 
+
+MSE for S with fixed parameters: 0.13705978 
+MSE for I with fixed parameters: 0.05997320 
+MSE for R with fixed parameters: 0.02138052 
+MSE for D with fixed parameters: 0.00011315 
+
+REL for S with fixed parameters: 0.00000151 
+REL for I with fixed parameters: 0.02472080 
+REL for R with fixed parameters: 0.00001256 
+REL for D with fixed parameters: 0.00035485 
+
+train epoch: 200,time: 4.6280 
+learning rate: 0.003881648104 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00271625 
+loss for I to train: 0.00450899 
+loss for R to train: 0.00169752 
+loss for D to train: 0.00000169 
+total loss to train: 0.02423425 
+
+MSE of S to testing: 0.01306163 
+MSE of I to testing: 0.02978142 
+MSE of R to testing: 0.00943521 
+MSE of D to testing: 0.00009636 
+
+REL of S to testing: 0.00000014 
+REL of I to testing: 0.01227582 
+REL of R to testing: 0.00000554 
+REL of D to testing: 0.00030219 
+
+MSE for S with fixed parameters: 0.01373881 
+MSE for I with fixed parameters: 0.02830320 
+MSE for R with fixed parameters: 0.00953175 
+MSE for D with fixed parameters: 0.00009802 
+
+REL for S with fixed parameters: 0.00000015 
+REL for I with fixed parameters: 0.01166651 
+REL for R with fixed parameters: 0.00000560 
+REL for D with fixed parameters: 0.00030741 
+
+train epoch: 300,time: 6.8286 
+learning rate: 0.003420103428 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00038287 
+loss for I to train: 0.00094202 
+loss for R to train: 0.00047954 
+loss for D to train: 0.00000028 
+total loss to train: 0.00612589 
+
+MSE of S to testing: 0.09488332 
+MSE of I to testing: 0.04515779 
+MSE of R to testing: 0.01799346 
+MSE of D to testing: 0.00005609 
+
+REL of S to testing: 0.00000104 
+REL of I to testing: 0.01861393 
+REL of R to testing: 0.00001057 
+REL of D to testing: 0.00017589 
+
+MSE for S with fixed parameters: 0.15516312 
+MSE for I with fixed parameters: 0.07186483 
+MSE for R with fixed parameters: 0.02210402 
+MSE for D with fixed parameters: 0.00005063 
+
+REL for S with fixed parameters: 0.00000171 
+REL for I with fixed parameters: 0.02962250 
+REL for R with fixed parameters: 0.00001298 
+REL for D with fixed parameters: 0.00015879 
+
+train epoch: 400,time: 9.0298 
+learning rate: 0.003013438401 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00021159 
+loss for I to train: 0.00039347 
+loss for R to train: 0.00038909 
+loss for D to train: 0.00000018 
+total loss to train: 0.00449959 
+
+MSE of S to testing: 0.03985289 
+MSE of I to testing: 0.02086809 
+MSE of R to testing: 0.01229808 
+MSE of D to testing: 0.00003963 
+
+REL of S to testing: 0.00000044 
+REL of I to testing: 0.00860177 
+REL of R to testing: 0.00000722 
+REL of D to testing: 0.00012429 
+
+MSE for S with fixed parameters: 0.05120489 
+MSE for I with fixed parameters: 0.02679211 
+MSE for R with fixed parameters: 0.01375119 
+MSE for D with fixed parameters: 0.00004068 
+
+REL for S with fixed parameters: 0.00000056 
+REL for I with fixed parameters: 0.01104364 
+REL for R with fixed parameters: 0.00000808 
+REL for D with fixed parameters: 0.00012757 
+
+train epoch: 500,time: 11.2559 
+learning rate: 0.002655127597 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00038418 
+loss for I to train: 0.00069836 
+loss for R to train: 0.00054200 
+loss for D to train: 0.00000023 
+total loss to train: 0.00650705 
+
+MSE of S to testing: 0.06580064 
+MSE of I to testing: 0.03383806 
+MSE of R to testing: 0.01537101 
+MSE of D to testing: 0.00001373 
+
+REL of S to testing: 0.00000072 
+REL of I to testing: 0.01394796 
+REL of R to testing: 0.00000903 
+REL of D to testing: 0.00004305 
+
+MSE for S with fixed parameters: 0.08197355 
+MSE for I with fixed parameters: 0.03847173 
+MSE for R with fixed parameters: 0.01648216 
+MSE for D with fixed parameters: 0.00001382 
+
+REL for S with fixed parameters: 0.00000090 
+REL for I with fixed parameters: 0.01585795 
+REL for R with fixed parameters: 0.00000968 
+REL for D with fixed parameters: 0.00004333 
+
+train epoch: 600,time: 13.4634 
+learning rate: 0.002339421491 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00030015 
+loss for I to train: 0.00056281 
+loss for R to train: 0.00037669 
+loss for D to train: 0.00000041 
+total loss to train: 0.00463811 
+
+MSE of S to testing: 0.09906887 
+MSE of I to testing: 0.04492671 
+MSE of R to testing: 0.01763644 
+MSE of D to testing: 0.00002652 
+
+REL of S to testing: 0.00000109 
+REL of I to testing: 0.01851867 
+REL of R to testing: 0.00001036 
+REL of D to testing: 0.00008318 
+
+MSE for S with fixed parameters: 0.11052106 
+MSE for I with fixed parameters: 0.05085374 
+MSE for R with fixed parameters: 0.01865584 
+MSE for D with fixed parameters: 0.00002665 
+
+REL for S with fixed parameters: 0.00000121 
+REL for I with fixed parameters: 0.02096178 
+REL for R with fixed parameters: 0.00001096 
+REL for D with fixed parameters: 0.00008359 
+
+train epoch: 700,time: 15.6704 
+learning rate: 0.002061254201 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.03210998 
+loss for I to train: 0.03642261 
+loss for R to train: 0.06641663 
+loss for D to train: 0.00002188 
+total loss to train: 0.73313642 
+
+MSE of S to testing: 0.09949625 
+MSE of I to testing: 0.04658220 
+MSE of R to testing: 0.01786919 
+MSE of D to testing: 0.00001279 
+
+REL of S to testing: 0.00000109 
+REL of I to testing: 0.01920106 
+REL of R to testing: 0.00001050 
+REL of D to testing: 0.00004010 
+
+MSE for S with fixed parameters: 0.10128365 
+MSE for I with fixed parameters: 0.04799953 
+MSE for R with fixed parameters: 0.01812137 
+MSE for D with fixed parameters: 0.00000926 
+
+REL for S with fixed parameters: 0.00000111 
+REL for I with fixed parameters: 0.01978528 
+REL for R with fixed parameters: 0.00001064 
+REL for D with fixed parameters: 0.00002905 
+
+train epoch: 800,time: 17.8372 
+learning rate: 0.001816162199 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00071809 
+loss for I to train: 0.00142788 
+loss for R to train: 0.00064103 
+loss for D to train: 0.00000146 
+total loss to train: 0.00858543 
+
+MSE of S to testing: 0.09600824 
+MSE of I to testing: 0.03880906 
+MSE of R to testing: 0.01622649 
+MSE of D to testing: 0.00007258 
+
+REL of S to testing: 0.00000106 
+REL of I to testing: 0.01599700 
+REL of R to testing: 0.00000953 
+REL of D to testing: 0.00022762 
+
+MSE for S with fixed parameters: 0.03795641 
+MSE for I with fixed parameters: 0.02386907 
+MSE for R with fixed parameters: 0.01231291 
+MSE for D with fixed parameters: 0.00005372 
+
+REL for S with fixed parameters: 0.00000042 
+REL for I with fixed parameters: 0.00983877 
+REL for R with fixed parameters: 0.00000723 
+REL for D with fixed parameters: 0.00016846 
+
+train epoch: 900,time: 20.0305 
+learning rate: 0.001600212692 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00043113 
+loss for I to train: 0.00076401 
+loss for R to train: 0.00055789 
+loss for D to train: 0.00000032 
+total loss to train: 0.00678048 
+
+MSE of S to testing: 0.11363351 
+MSE of I to testing: 0.05123839 
+MSE of R to testing: 0.01850354 
+MSE of D to testing: 0.00004176 
+
+REL of S to testing: 0.00000125 
+REL of I to testing: 0.02112033 
+REL of R to testing: 0.00001087 
+REL of D to testing: 0.00013098 
+
+MSE for S with fixed parameters: 0.11092346 
+MSE for I with fixed parameters: 0.05030561 
+MSE for R with fixed parameters: 0.01843572 
+MSE for D with fixed parameters: 0.00006685 
+
+REL for S with fixed parameters: 0.00000122 
+REL for I with fixed parameters: 0.02073584 
+REL for R with fixed parameters: 0.00001083 
+REL for D with fixed parameters: 0.00020963 
+
+train epoch: 1000,time: 22.2253 
+learning rate: 0.001409940512 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.03819039 
+loss for I to train: 0.04075769 
+loss for R to train: 0.07055384 
+loss for D to train: 0.00002567 
+total loss to train: 0.78499985 
+
+MSE of S to testing: 0.12039750 
+MSE of I to testing: 0.05292665 
+MSE of R to testing: 0.01872494 
+MSE of D to testing: 0.00010076 
+
+REL of S to testing: 0.00000132 
+REL of I to testing: 0.02181623 
+REL of R to testing: 0.00001100 
+REL of D to testing: 0.00031600 
+
+MSE for S with fixed parameters: 0.08993755 
+MSE for I with fixed parameters: 0.04062459 
+MSE for R with fixed parameters: 0.01673866 
+MSE for D with fixed parameters: 0.00008638 
+
+REL for S with fixed parameters: 0.00000099 
+REL for I with fixed parameters: 0.01674535 
+REL for R with fixed parameters: 0.00000983 
+REL for D with fixed parameters: 0.00027090 
+
+train epoch: 1100,time: 24.4551 
+learning rate: 0.001242292513 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00091842 
+loss for I to train: 0.00146162 
+loss for R to train: 0.00067916 
+loss for D to train: 0.00000126 
+total loss to train: 0.00919695 
+
+MSE of S to testing: 0.06781439 
+MSE of I to testing: 0.02899996 
+MSE of R to testing: 0.01438556 
+MSE of D to testing: 0.00005377 
+
+REL of S to testing: 0.00000075 
+REL of I to testing: 0.01195371 
+REL of R to testing: 0.00000845 
+REL of D to testing: 0.00016863 
+
+MSE for S with fixed parameters: 0.05429705 
+MSE for I with fixed parameters: 0.02768132 
+MSE for R with fixed parameters: 0.01383790 
+MSE for D with fixed parameters: 0.00005733 
+
+REL for S with fixed parameters: 0.00000060 
+REL for I with fixed parameters: 0.01141017 
+REL for R with fixed parameters: 0.00000813 
+REL for D with fixed parameters: 0.00017978 
+
+train epoch: 1200,time: 26.6938 
+learning rate: 0.001094578583 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.01898930 
+loss for I to train: 0.03367725 
+loss for R to train: 0.05831755 
+loss for D to train: 0.00004010 
+total loss to train: 0.63664418 
+
+MSE of S to testing: 0.09799974 
+MSE of I to testing: 0.04321346 
+MSE of R to testing: 0.01705138 
+MSE of D to testing: 0.00003148 
+
+REL of S to testing: 0.00000108 
+REL of I to testing: 0.01781248 
+REL of R to testing: 0.00001002 
+REL of D to testing: 0.00009872 
+
+MSE for S with fixed parameters: 0.06498975 
+MSE for I with fixed parameters: 0.03180304 
+MSE for R with fixed parameters: 0.01487898 
+MSE for D with fixed parameters: 0.00001876 
+
+REL for S with fixed parameters: 0.00000071 
+REL for I with fixed parameters: 0.01310913 
+REL for R with fixed parameters: 0.00000874 
+REL for D with fixed parameters: 0.00005885 
+
+train epoch: 1300,time: 28.8891 
+learning rate: 0.000964428475 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00081897 
+loss for I to train: 0.00145688 
+loss for R to train: 0.00068373 
+loss for D to train: 0.00000112 
+total loss to train: 0.00913547 
+
+MSE of S to testing: 0.11264612 
+MSE of I to testing: 0.05067989 
+MSE of R to testing: 0.01832125 
+MSE of D to testing: 0.00004702 
+
+REL of S to testing: 0.00000124 
+REL of I to testing: 0.02089012 
+REL of R to testing: 0.00001076 
+REL of D to testing: 0.00014747 
+
+MSE for S with fixed parameters: 0.12358513 
+MSE for I with fixed parameters: 0.05657922 
+MSE for R with fixed parameters: 0.01938481 
+MSE for D with fixed parameters: 0.00005817 
+
+REL for S with fixed parameters: 0.00000136 
+REL for I with fixed parameters: 0.02332181 
+REL for R with fixed parameters: 0.00001139 
+REL for D with fixed parameters: 0.00018242 
+
+train epoch: 1400,time: 31.0618 
+learning rate: 0.000849753776 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00742762 
+loss for I to train: 0.02560948 
+loss for R to train: 0.03494903 
+loss for D to train: 0.00002949 
+total loss to train: 0.38311723 
+
+MSE of S to testing: 0.08243289 
+MSE of I to testing: 0.03686309 
+MSE of R to testing: 0.01590766 
+MSE of D to testing: 0.00003073 
+
+REL of S to testing: 0.00000091 
+REL of I to testing: 0.01519487 
+REL of R to testing: 0.00000934 
+REL of D to testing: 0.00009636 
+
+MSE for S with fixed parameters: 0.10592546 
+MSE for I with fixed parameters: 0.04957773 
+MSE for R with fixed parameters: 0.01825277 
+MSE for D with fixed parameters: 0.00001208 
+
+REL for S with fixed parameters: 0.00000116 
+REL for I with fixed parameters: 0.02043581 
+REL for R with fixed parameters: 0.00001072 
+REL for D with fixed parameters: 0.00003788 
+
+train epoch: 1500,time: 33.2998 
+learning rate: 0.000748714393 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00089537 
+loss for I to train: 0.00139680 
+loss for R to train: 0.00056530 
+loss for D to train: 0.00000058 
+total loss to train: 0.00795683 
+
+MSE of S to testing: 0.08104028 
+MSE of I to testing: 0.03453003 
+MSE of R to testing: 0.01543663 
+MSE of D to testing: 0.00002094 
+
+REL of S to testing: 0.00000089 
+REL of I to testing: 0.01423319 
+REL of R to testing: 0.00000907 
+REL of D to testing: 0.00006568 
+
+MSE for S with fixed parameters: 0.05034583 
+MSE for I with fixed parameters: 0.02743382 
+MSE for R with fixed parameters: 0.01369880 
+MSE for D with fixed parameters: 0.00001002 
+
+REL for S with fixed parameters: 0.00000055 
+REL for I with fixed parameters: 0.01130815 
+REL for R with fixed parameters: 0.00000805 
+REL for D with fixed parameters: 0.00003143 
+
+train epoch: 1600,time: 35.4804 
+learning rate: 0.000659689027 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00051730 
+loss for I to train: 0.00066989 
+loss for R to train: 0.00044614 
+loss for D to train: 0.00000053 
+total loss to train: 0.00565916 
+
+MSE of S to testing: 0.04098174 
+MSE of I to testing: 0.01908563 
+MSE of R to testing: 0.01195402 
+MSE of D to testing: 0.00002681 
+
+REL of S to testing: 0.00000045 
+REL of I to testing: 0.00786705 
+REL of R to testing: 0.00000702 
+REL of D to testing: 0.00008406 
+
+MSE for S with fixed parameters: 0.06763779 
+MSE for I with fixed parameters: 0.03196894 
+MSE for R with fixed parameters: 0.01490626 
+MSE for D with fixed parameters: 0.00007693 
+
+REL for S with fixed parameters: 0.00000074 
+REL for I with fixed parameters: 0.01317752 
+REL for R with fixed parameters: 0.00000876 
+REL for D with fixed parameters: 0.00024125 
+
+train epoch: 1700,time: 37.6535 
+learning rate: 0.000581249161 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00065532 
+loss for I to train: 0.00111488 
+loss for R to train: 0.00047380 
+loss for D to train: 0.00000034 
+total loss to train: 0.00651508 
+
+MSE of S to testing: 0.02822233 
+MSE of I to testing: 0.02217688 
+MSE of R to testing: 0.01109255 
+MSE of D to testing: 0.00005933 
+
+REL of S to testing: 0.00000031 
+REL of I to testing: 0.00914125 
+REL of R to testing: 0.00000652 
+REL of D to testing: 0.00018605 
+
+MSE for S with fixed parameters: 0.06703044 
+MSE for I with fixed parameters: 0.03207663 
+MSE for R with fixed parameters: 0.01496116 
+MSE for D with fixed parameters: 0.00004472 
+
+REL for S with fixed parameters: 0.00000074 
+REL for I with fixed parameters: 0.01322191 
+REL for R with fixed parameters: 0.00000879 
+REL for D with fixed parameters: 0.00014024 
+
+train epoch: 1800,time: 39.8221 
+learning rate: 0.000512136132 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00045325 
+loss for I to train: 0.00081268 
+loss for R to train: 0.00042021 
+loss for D to train: 0.00000063 
+total loss to train: 0.00548078 
+
+MSE of S to testing: 0.05829123 
+MSE of I to testing: 0.02805306 
+MSE of R to testing: 0.01400681 
+MSE of D to testing: 0.00002627 
+
+REL of S to testing: 0.00000064 
+REL of I to testing: 0.01156340 
+REL of R to testing: 0.00000823 
+REL of D to testing: 0.00008239 
+
+MSE for S with fixed parameters: 0.08793502 
+MSE for I with fixed parameters: 0.04111429 
+MSE for R with fixed parameters: 0.01676385 
+MSE for D with fixed parameters: 0.00001855 
+
+REL for S with fixed parameters: 0.00000097 
+REL for I with fixed parameters: 0.01694721 
+REL for R with fixed parameters: 0.00000985 
+REL for D with fixed parameters: 0.00005818 
+
+train epoch: 1900,time: 41.9891 
+learning rate: 0.000451240940 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00066684 
+loss for I to train: 0.00128616 
+loss for R to train: 0.00083446 
+loss for D to train: 0.00000126 
+total loss to train: 0.01032280 
+
+MSE of S to testing: 0.08935171 
+MSE of I to testing: 0.04410181 
+MSE of R to testing: 0.01732045 
+MSE of D to testing: 0.00004878 
+
+REL of S to testing: 0.00000098 
+REL of I to testing: 0.01817865 
+REL of R to testing: 0.00001017 
+REL of D to testing: 0.00015298 
+
+MSE for S with fixed parameters: 0.12418543 
+MSE for I with fixed parameters: 0.05847340 
+MSE for R with fixed parameters: 0.01961613 
+MSE for D with fixed parameters: 0.00001261 
+
+REL for S with fixed parameters: 0.00000137 
+REL for I with fixed parameters: 0.02410259 
+REL for R with fixed parameters: 0.00001152 
+REL for D with fixed parameters: 0.00003956 
+
+train epoch: 2000,time: 44.1757 
+learning rate: 0.000397586449 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00048867 
+loss for I to train: 0.00080785 
+loss for R to train: 0.00025393 
+loss for D to train: 0.00000045 
+total loss to train: 0.00384487 
+
+MSE of S to testing: 0.05669189 
+MSE of I to testing: 0.02724544 
+MSE of R to testing: 0.01393161 
+MSE of D to testing: 0.00002377 
+
+REL of S to testing: 0.00000062 
+REL of I to testing: 0.01123050 
+REL of R to testing: 0.00000818 
+REL of D to testing: 0.00007456 
+
+MSE for S with fixed parameters: 0.03331494 
+MSE for I with fixed parameters: 0.02334634 
+MSE for R with fixed parameters: 0.01182993 
+MSE for D with fixed parameters: 0.00003666 
+
+REL for S with fixed parameters: 0.00000037 
+REL for I with fixed parameters: 0.00962330 
+REL for R with fixed parameters: 0.00000695 
+REL for D with fixed parameters: 0.00011496 
+
+train epoch: 2100,time: 46.4180 
+learning rate: 0.000350311708 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00040427 
+loss for I to train: 0.00058053 
+loss for R to train: 0.00022551 
+loss for D to train: 0.00000041 
+total loss to train: 0.00324812 
+
+MSE of S to testing: 0.02109181 
+MSE of I to testing: 0.01920788 
+MSE of R to testing: 0.01029527 
+MSE of D to testing: 0.00001986 
+
+REL of S to testing: 0.00000023 
+REL of I to testing: 0.00791744 
+REL of R to testing: 0.00000605 
+REL of D to testing: 0.00006228 
+
+MSE for S with fixed parameters: 0.02344017 
+MSE for I with fixed parameters: 0.02324365 
+MSE for R with fixed parameters: 0.01082941 
+MSE for D with fixed parameters: 0.00001284 
+
+REL for S with fixed parameters: 0.00000026 
+REL for I with fixed parameters: 0.00958097 
+REL for R with fixed parameters: 0.00000636 
+REL for D with fixed parameters: 0.00004027 
+
+train epoch: 2200,time: 48.5959 
+learning rate: 0.000308658137 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00017097 
+loss for I to train: 0.00076705 
+loss for R to train: 0.00084108 
+loss for D to train: 0.00000117 
+total loss to train: 0.00937233 
+
+MSE of S to testing: 0.00990796 
+MSE of I to testing: 0.01585995 
+MSE of R to testing: 0.00879756 
+MSE of D to testing: 0.00001672 
+
+REL of S to testing: 0.00000011 
+REL of I to testing: 0.00653743 
+REL of R to testing: 0.00000517 
+REL of D to testing: 0.00005245 
+
+MSE for S with fixed parameters: 0.00975200 
+MSE for I with fixed parameters: 0.05152007 
+MSE for R with fixed parameters: 0.00736779 
+MSE for D with fixed parameters: 0.00006234 
+
+REL for S with fixed parameters: 0.00000011 
+REL for I with fixed parameters: 0.02123644 
+REL for R with fixed parameters: 0.00000433 
+REL for D with fixed parameters: 0.00019550 
+
+train epoch: 2300,time: 50.7800 
+learning rate: 0.000271957356 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00106200 
+loss for I to train: 0.00182908 
+loss for R to train: 0.00064023 
+loss for D to train: 0.00000070 
+total loss to train: 0.00930737 
+
+MSE of S to testing: 0.01922568 
+MSE of I to testing: 0.02356808 
+MSE of R to testing: 0.01017597 
+MSE of D to testing: 0.00003328 
+
+REL of S to testing: 0.00000021 
+REL of I to testing: 0.00971470 
+REL of R to testing: 0.00000598 
+REL of D to testing: 0.00010436 
+
+MSE for S with fixed parameters: 0.01474790 
+MSE for I with fixed parameters: 0.02612253 
+MSE for R with fixed parameters: 0.00962845 
+MSE for D with fixed parameters: 0.00001497 
+
+REL for S with fixed parameters: 0.00000016 
+REL for I with fixed parameters: 0.01076764 
+REL for R with fixed parameters: 0.00000566 
+REL for D with fixed parameters: 0.00004695 
+
+train epoch: 2400,time: 52.9728 
+learning rate: 0.000239620455 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00032929 
+loss for I to train: 0.00066222 
+loss for R to train: 0.00046727 
+loss for D to train: 0.00000024 
+total loss to train: 0.00566892 
+
+MSE of S to testing: 0.03228845 
+MSE of I to testing: 0.02806346 
+MSE of R to testing: 0.01177297 
+MSE of D to testing: 0.00006067 
+
+REL of S to testing: 0.00000035 
+REL of I to testing: 0.01156769 
+REL of R to testing: 0.00000692 
+REL of D to testing: 0.00019027 
+
+MSE for S with fixed parameters: 0.03634115 
+MSE for I with fixed parameters: 0.02368205 
+MSE for R with fixed parameters: 0.01210363 
+MSE for D with fixed parameters: 0.00004746 
+
+REL for S with fixed parameters: 0.00000040 
+REL for I with fixed parameters: 0.00976168 
+REL for R with fixed parameters: 0.00000711 
+REL for D with fixed parameters: 0.00014884 
+
+train epoch: 2500,time: 55.1660 
+learning rate: 0.000211128551 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00102255 
+loss for I to train: 0.00195397 
+loss for R to train: 0.00081736 
+loss for D to train: 0.00000154 
+total loss to train: 0.01118084 
+
+MSE of S to testing: 0.01844232 
+MSE of I to testing: 0.02675704 
+MSE of R to testing: 0.01021105 
+MSE of D to testing: 0.00001765 
+
+REL of S to testing: 0.00000020 
+REL of I to testing: 0.01102918 
+REL of R to testing: 0.00000600 
+REL of D to testing: 0.00005534 
+
+MSE for S with fixed parameters: 0.01115770 
+MSE for I with fixed parameters: 0.02915783 
+MSE for R with fixed parameters: 0.00905688 
+MSE for D with fixed parameters: 0.00001573 
+
+REL for S with fixed parameters: 0.00000012 
+REL for I with fixed parameters: 0.01201878 
+REL for R with fixed parameters: 0.00000532 
+REL for D with fixed parameters: 0.00004933 
+
+train epoch: 2600,time: 57.3714 
+learning rate: 0.000186024457 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00126827 
+loss for I to train: 0.00187320 
+loss for R to train: 0.00193657 
+loss for D to train: 0.00000218 
+total loss to train: 0.02255073 
+
+MSE of S to testing: 0.04023656 
+MSE of I to testing: 0.02224131 
+MSE of R to testing: 0.01233704 
+MSE of D to testing: 0.00001346 
+
+REL of S to testing: 0.00000044 
+REL of I to testing: 0.00916781 
+REL of R to testing: 0.00000725 
+REL of D to testing: 0.00004220 
+
+MSE for S with fixed parameters: 0.04228915 
+MSE for I with fixed parameters: 0.02511195 
+MSE for R with fixed parameters: 0.01287056 
+MSE for D with fixed parameters: 0.00001049 
+
+REL for S with fixed parameters: 0.00000046 
+REL for I with fixed parameters: 0.01035108 
+REL for R with fixed parameters: 0.00000756 
+REL for D with fixed parameters: 0.00003290 
+
+train epoch: 2700,time: 59.5878 
+learning rate: 0.000163905348 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00040627 
+loss for I to train: 0.00067536 
+loss for R to train: 0.00025398 
+loss for D to train: 0.00000050 
+total loss to train: 0.00363136 
+
+MSE of S to testing: 0.03122976 
+MSE of I to testing: 0.01867562 
+MSE of R to testing: 0.01121499 
+MSE of D to testing: 0.00002118 
+
+REL of S to testing: 0.00000034 
+REL of I to testing: 0.00769804 
+REL of R to testing: 0.00000659 
+REL of D to testing: 0.00006643 
+
+MSE for S with fixed parameters: 0.04517669 
+MSE for I with fixed parameters: 0.02564353 
+MSE for R with fixed parameters: 0.01307771 
+MSE for D with fixed parameters: 0.00001823 
+
+REL for S with fixed parameters: 0.00000050 
+REL for I with fixed parameters: 0.01057020 
+REL for R with fixed parameters: 0.00000768 
+REL for D with fixed parameters: 0.00005717 
+
+train epoch: 2800,time: 61.9170 
+learning rate: 0.000144416296 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00489798 
+loss for I to train: 0.00433420 
+loss for R to train: 0.01359611 
+loss for D to train: 0.00001049 
+total loss to train: 0.14540307 
+
+MSE of S to testing: 0.01715570 
+MSE of I to testing: 0.01842268 
+MSE of R to testing: 0.00976183 
+MSE of D to testing: 0.00002634 
+
+REL of S to testing: 0.00000019 
+REL of I to testing: 0.00759378 
+REL of R to testing: 0.00000573 
+REL of D to testing: 0.00008261 
+
+MSE for S with fixed parameters: 0.02131344 
+MSE for I with fixed parameters: 0.02360422 
+MSE for R with fixed parameters: 0.01052824 
+MSE for D with fixed parameters: 0.00001886 
+
+REL for S with fixed parameters: 0.00000023 
+REL for I with fixed parameters: 0.00972960 
+REL for R with fixed parameters: 0.00000618 
+REL for D with fixed parameters: 0.00005916 
+
+train epoch: 2900,time: 64.0913 
+learning rate: 0.000127244576 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00066007 
+loss for I to train: 0.00133711 
+loss for R to train: 0.00058206 
+loss for D to train: 0.00000064 
+total loss to train: 0.00783063 
+
+MSE of S to testing: 0.02110345 
+MSE of I to testing: 0.02108081 
+MSE of R to testing: 0.01026246 
+MSE of D to testing: 0.00003516 
+
+REL of S to testing: 0.00000023 
+REL of I to testing: 0.00868945 
+REL of R to testing: 0.00000603 
+REL of D to testing: 0.00011026 
+
+MSE for S with fixed parameters: 0.03996108 
+MSE for I with fixed parameters: 0.02437709 
+MSE for R with fixed parameters: 0.01251503 
+MSE for D with fixed parameters: 0.00002977 
+
+REL for S with fixed parameters: 0.00000044 
+REL for I with fixed parameters: 0.01004817 
+REL for R with fixed parameters: 0.00000735 
+REL for D with fixed parameters: 0.00009337 
+
+train epoch: 3000,time: 66.3028 
+learning rate: 0.000112114648 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00061412 
+loss for I to train: 0.00107514 
+loss for R to train: 0.00091447 
+loss for D to train: 0.00000151 
+total loss to train: 0.01086421 
+
+MSE of S to testing: 0.01478186 
+MSE of I to testing: 0.02023630 
+MSE of R to testing: 0.00949732 
+MSE of D to testing: 0.00001598 
+
+REL of S to testing: 0.00000016 
+REL of I to testing: 0.00834135 
+REL of R to testing: 0.00000558 
+REL of D to testing: 0.00005010 
+
+MSE for S with fixed parameters: 0.01978280 
+MSE for I with fixed parameters: 0.02385939 
+MSE for R with fixed parameters: 0.01037360 
+MSE for D with fixed parameters: 0.00001159 
+
+REL for S with fixed parameters: 0.00000022 
+REL for I with fixed parameters: 0.00983478 
+REL for R with fixed parameters: 0.00000609 
+REL for D with fixed parameters: 0.00003634 
+
+train epoch: 3100,time: 68.4998 
+learning rate: 0.000098783734 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.02223076 
+loss for I to train: 0.01932494 
+loss for R to train: 0.06867578 
+loss for D to train: 0.00003936 
+total loss to train: 0.72910076 
+
+MSE of S to testing: 0.01585965 
+MSE of I to testing: 0.02168924 
+MSE of R to testing: 0.00958046 
+MSE of D to testing: 0.00002568 
+
+REL of S to testing: 0.00000017 
+REL of I to testing: 0.00894025 
+REL of R to testing: 0.00000563 
+REL of D to testing: 0.00008052 
+
+MSE for S with fixed parameters: 0.02335414 
+MSE for I with fixed parameters: 0.02331928 
+MSE for R with fixed parameters: 0.01073890 
+MSE for D with fixed parameters: 0.00002790 
+
+REL for S with fixed parameters: 0.00000026 
+REL for I with fixed parameters: 0.00961215 
+REL for R with fixed parameters: 0.00000631 
+REL for D with fixed parameters: 0.00008748 
+
+train epoch: 3200,time: 70.7409 
+learning rate: 0.000087037922 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00037251 
+loss for I to train: 0.00067394 
+loss for R to train: 0.00043628 
+loss for D to train: 0.00000034 
+total loss to train: 0.00541601 
+
+MSE of S to testing: 0.00855628 
+MSE of I to testing: 0.02752123 
+MSE of R to testing: 0.00842467 
+MSE of D to testing: 0.00002229 
+
+REL of S to testing: 0.00000009 
+REL of I to testing: 0.01134418 
+REL of R to testing: 0.00000495 
+REL of D to testing: 0.00006989 
+
+MSE for S with fixed parameters: 0.01291452 
+MSE for I with fixed parameters: 0.02791182 
+MSE for R with fixed parameters: 0.00925767 
+MSE for D with fixed parameters: 0.00003023 
+
+REL for S with fixed parameters: 0.00000014 
+REL for I with fixed parameters: 0.01150518 
+REL for R with fixed parameters: 0.00000544 
+REL for D with fixed parameters: 0.00009480 
+
+train epoch: 3300,time: 72.8922 
+learning rate: 0.000076688739 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.01956203 
+loss for I to train: 0.01387534 
+loss for R to train: 0.05314703 
+loss for D to train: 0.00003174 
+total loss to train: 0.56554240 
+
+MSE of S to testing: 0.01553557 
+MSE of I to testing: 0.02203820 
+MSE of R to testing: 0.00955689 
+MSE of D to testing: 0.00001890 
+
+REL of S to testing: 0.00000017 
+REL of I to testing: 0.00908409 
+REL of R to testing: 0.00000561 
+REL of D to testing: 0.00005928 
+
+MSE for S with fixed parameters: 0.02101839 
+MSE for I with fixed parameters: 0.02371483 
+MSE for R with fixed parameters: 0.01045174 
+MSE for D with fixed parameters: 0.00002789 
+
+REL for S with fixed parameters: 0.00000023 
+REL for I with fixed parameters: 0.00977519 
+REL for R with fixed parameters: 0.00000614 
+REL for D with fixed parameters: 0.00008746 
+
+train epoch: 3400,time: 75.0493 
+learning rate: 0.000067570117 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.02016725 
+loss for I to train: 0.01589262 
+loss for R to train: 0.05748772 
+loss for D to train: 0.00003640 
+total loss to train: 0.61166495 
+
+MSE of S to testing: 0.01468448 
+MSE of I to testing: 0.02189681 
+MSE of R to testing: 0.00941847 
+MSE of D to testing: 0.00002225 
+
+REL of S to testing: 0.00000016 
+REL of I to testing: 0.00902581 
+REL of R to testing: 0.00000553 
+REL of D to testing: 0.00006978 
+
+MSE for S with fixed parameters: 0.01791628 
+MSE for I with fixed parameters: 0.02473311 
+MSE for R with fixed parameters: 0.01001091 
+MSE for D with fixed parameters: 0.00003911 
+
+REL for S with fixed parameters: 0.00000020 
+REL for I with fixed parameters: 0.01019493 
+REL for R with fixed parameters: 0.00000588 
+REL for D with fixed parameters: 0.00012266 
+
+train epoch: 3500,time: 77.2300 
+learning rate: 0.000059535739 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.02026324 
+loss for I to train: 0.01616654 
+loss for R to train: 0.05747611 
+loss for D to train: 0.00003580 
+total loss to train: 0.61190701 
+
+MSE of S to testing: 0.01365291 
+MSE of I to testing: 0.02231814 
+MSE of R to testing: 0.00925633 
+MSE of D to testing: 0.00002302 
+
+REL of S to testing: 0.00000015 
+REL of I to testing: 0.00919948 
+REL of R to testing: 0.00000544 
+REL of D to testing: 0.00007218 
+
+MSE for S with fixed parameters: 0.01670519 
+MSE for I with fixed parameters: 0.02525578 
+MSE for R with fixed parameters: 0.00984675 
+MSE for D with fixed parameters: 0.00003633 
+
+REL for S with fixed parameters: 0.00000018 
+REL for I with fixed parameters: 0.01041037 
+REL for R with fixed parameters: 0.00000578 
+REL for D with fixed parameters: 0.00011395 
+
+train epoch: 3600,time: 79.3810 
+learning rate: 0.000052456684 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00052596 
+loss for I to train: 0.00093126 
+loss for R to train: 0.00059088 
+loss for D to train: 0.00000100 
+total loss to train: 0.00738609 
+
+MSE of S to testing: 0.01877181 
+MSE of I to testing: 0.02063973 
+MSE of R to testing: 0.00997513 
+MSE of D to testing: 0.00002289 
+
+REL of S to testing: 0.00000021 
+REL of I to testing: 0.00850764 
+REL of R to testing: 0.00000586 
+REL of D to testing: 0.00007178 
+
+MSE for S with fixed parameters: 0.02026862 
+MSE for I with fixed parameters: 0.02393920 
+MSE for R with fixed parameters: 0.01033080 
+MSE for D with fixed parameters: 0.00003594 
+
+REL for S with fixed parameters: 0.00000022 
+REL for I with fixed parameters: 0.00986768 
+REL for R with fixed parameters: 0.00000607 
+REL for D with fixed parameters: 0.00011270 
+
+train epoch: 3700,time: 81.5481 
+learning rate: 0.000046219358 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00044694 
+loss for I to train: 0.00067504 
+loss for R to train: 0.00046859 
+loss for D to train: 0.00000047 
+total loss to train: 0.00581722 
+
+MSE of S to testing: 0.01871154 
+MSE of I to testing: 0.02066595 
+MSE of R to testing: 0.00995081 
+MSE of D to testing: 0.00002156 
+
+REL of S to testing: 0.00000021 
+REL of I to testing: 0.00851845 
+REL of R to testing: 0.00000585 
+REL of D to testing: 0.00006762 
+
+MSE for S with fixed parameters: 0.02221494 
+MSE for I with fixed parameters: 0.02354184 
+MSE for R with fixed parameters: 0.01055882 
+MSE for D with fixed parameters: 0.00004260 
+
+REL for S with fixed parameters: 0.00000024 
+REL for I with fixed parameters: 0.00970389 
+REL for R with fixed parameters: 0.00000620 
+REL for D with fixed parameters: 0.00013358 
+
+train epoch: 3800,time: 83.7020 
+learning rate: 0.000040723677 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00035659 
+loss for I to train: 0.00076213 
+loss for R to train: 0.00056668 
+loss for D to train: 0.00000038 
+total loss to train: 0.00679314 
+
+MSE of S to testing: 0.01628875 
+MSE of I to testing: 0.02078349 
+MSE of R to testing: 0.00967861 
+MSE of D to testing: 0.00002250 
+
+REL of S to testing: 0.00000018 
+REL of I to testing: 0.00856690 
+REL of R to testing: 0.00000569 
+REL of D to testing: 0.00007057 
+
+MSE for S with fixed parameters: 0.01719139 
+MSE for I with fixed parameters: 0.02508183 
+MSE for R with fixed parameters: 0.00989692 
+MSE for D with fixed parameters: 0.00004421 
+
+REL for S with fixed parameters: 0.00000019 
+REL for I with fixed parameters: 0.01033867 
+REL for R with fixed parameters: 0.00000581 
+REL for D with fixed parameters: 0.00013864 
+
+train epoch: 3900,time: 85.9751 
+learning rate: 0.000035881457 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00056276 
+loss for I to train: 0.00097060 
+loss for R to train: 0.00067743 
+loss for D to train: 0.00000112 
+total loss to train: 0.00833018 
+
+MSE of S to testing: 0.01674982 
+MSE of I to testing: 0.02061246 
+MSE of R to testing: 0.00972342 
+MSE of D to testing: 0.00002432 
+
+REL of S to testing: 0.00000018 
+REL of I to testing: 0.00849640 
+REL of R to testing: 0.00000571 
+REL of D to testing: 0.00007626 
+
+MSE for S with fixed parameters: 0.01799394 
+MSE for I with fixed parameters: 0.02475167 
+MSE for R with fixed parameters: 0.01000321 
+MSE for D with fixed parameters: 0.00004657 
+
+REL for S with fixed parameters: 0.00000020 
+REL for I with fixed parameters: 0.01020258 
+REL for R with fixed parameters: 0.00000588 
+REL for D with fixed parameters: 0.00014605 
+
+train epoch: 4000,time: 88.2041 
+learning rate: 0.000031614997 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.01966788 
+loss for I to train: 0.01478851 
+loss for R to train: 0.05512233 
+loss for D to train: 0.00003486 
+total loss to train: 0.58637685 
+
+MSE of S to testing: 0.01644307 
+MSE of I to testing: 0.02097583 
+MSE of R to testing: 0.00975170 
+MSE of D to testing: 0.00002251 
+
+REL of S to testing: 0.00000018 
+REL of I to testing: 0.00864618 
+REL of R to testing: 0.00000573 
+REL of D to testing: 0.00007060 
+
+MSE for S with fixed parameters: 0.01800312 
+MSE for I with fixed parameters: 0.02474648 
+MSE for R with fixed parameters: 0.01000529 
+MSE for D with fixed parameters: 0.00004699 
+
+REL for S with fixed parameters: 0.00000020 
+REL for I with fixed parameters: 0.01020043 
+REL for R with fixed parameters: 0.00000588 
+REL for D with fixed parameters: 0.00014735 
+
+train epoch: 4100,time: 90.3731 
+learning rate: 0.000027855838 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00030258 
+loss for I to train: 0.00056160 
+loss for R to train: 0.00040743 
+loss for D to train: 0.00000034 
+total loss to train: 0.00494521 
+
+MSE of S to testing: 0.02003515 
+MSE of I to testing: 0.01760886 
+MSE of R to testing: 0.01007005 
+MSE of D to testing: 0.00002258 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00725833 
+REL of R to testing: 0.00000592 
+REL of D to testing: 0.00007082 
+
+MSE for S with fixed parameters: 0.01732196 
+MSE for I with fixed parameters: 0.02501067 
+MSE for R with fixed parameters: 0.00991817 
+MSE for D with fixed parameters: 0.00004300 
+
+REL for S with fixed parameters: 0.00000019 
+REL for I with fixed parameters: 0.01030933 
+REL for R with fixed parameters: 0.00000583 
+REL for D with fixed parameters: 0.00013486 
+
+train epoch: 4200,time: 92.5673 
+learning rate: 0.000024543659 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00055362 
+loss for I to train: 0.00140341 
+loss for R to train: 0.00071287 
+loss for D to train: 0.00000083 
+total loss to train: 0.00910229 
+
+MSE of S to testing: 0.02068016 
+MSE of I to testing: 0.01849249 
+MSE of R to testing: 0.01018761 
+MSE of D to testing: 0.00001791 
+
+REL of S to testing: 0.00000023 
+REL of I to testing: 0.00762256 
+REL of R to testing: 0.00000598 
+REL of D to testing: 0.00005616 
+
+MSE for S with fixed parameters: 0.01805086 
+MSE for I with fixed parameters: 0.02464392 
+MSE for R with fixed parameters: 0.01003873 
+MSE for D with fixed parameters: 0.00003437 
+
+REL for S with fixed parameters: 0.00000020 
+REL for I with fixed parameters: 0.01015816 
+REL for R with fixed parameters: 0.00000590 
+REL for D with fixed parameters: 0.00010777 
+
+train epoch: 4300,time: 94.7621 
+learning rate: 0.000021625312 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00037946 
+loss for I to train: 0.00100258 
+loss for R to train: 0.00098246 
+loss for D to train: 0.00000145 
+total loss to train: 0.01123563 
+
+MSE of S to testing: 0.01971001 
+MSE of I to testing: 0.01829527 
+MSE of R to testing: 0.01003817 
+MSE of D to testing: 0.00001954 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00754126 
+REL of R to testing: 0.00000590 
+REL of D to testing: 0.00006127 
+
+MSE for S with fixed parameters: 0.01700076 
+MSE for I with fixed parameters: 0.02516410 
+MSE for R with fixed parameters: 0.00987076 
+MSE for D with fixed parameters: 0.00004302 
+
+REL for S with fixed parameters: 0.00000019 
+REL for I with fixed parameters: 0.01037258 
+REL for R with fixed parameters: 0.00000580 
+REL for D with fixed parameters: 0.00013492 
+
+train epoch: 4400,time: 96.9756 
+learning rate: 0.000019053969 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.01670262 
+loss for I to train: 0.01227633 
+loss for R to train: 0.03947169 
+loss for D to train: 0.00002851 
+total loss to train: 0.42426595 
+
+MSE of S to testing: 0.02055884 
+MSE of I to testing: 0.01889574 
+MSE of R to testing: 0.01015676 
+MSE of D to testing: 0.00002161 
+
+REL of S to testing: 0.00000023 
+REL of I to testing: 0.00778877 
+REL of R to testing: 0.00000597 
+REL of D to testing: 0.00006777 
+
+MSE for S with fixed parameters: 0.01828147 
+MSE for I with fixed parameters: 0.02461034 
+MSE for R with fixed parameters: 0.01005093 
+MSE for D with fixed parameters: 0.00004221 
+
+REL for S with fixed parameters: 0.00000020 
+REL for I with fixed parameters: 0.01014432 
+REL for R with fixed parameters: 0.00000590 
+REL for D with fixed parameters: 0.00013236 
+
+train epoch: 4500,time: 99.2085 
+learning rate: 0.000016788370 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00050812 
+loss for I to train: 0.00096180 
+loss for R to train: 0.00068031 
+loss for D to train: 0.00000114 
+total loss to train: 0.00829574 
+
+MSE of S to testing: 0.02149927 
+MSE of I to testing: 0.01894515 
+MSE of R to testing: 0.01026891 
+MSE of D to testing: 0.00001946 
+
+REL of S to testing: 0.00000024 
+REL of I to testing: 0.00780914 
+REL of R to testing: 0.00000603 
+REL of D to testing: 0.00006102 
+
+MSE for S with fixed parameters: 0.02054003 
+MSE for I with fixed parameters: 0.02387910 
+MSE for R with fixed parameters: 0.01035906 
+MSE for D with fixed parameters: 0.00003825 
+
+REL for S with fixed parameters: 0.00000023 
+REL for I with fixed parameters: 0.00984290 
+REL for R with fixed parameters: 0.00000608 
+REL for D with fixed parameters: 0.00011997 
+
+train epoch: 4600,time: 101.3931 
+learning rate: 0.000014792161 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00042815 
+loss for I to train: 0.00079221 
+loss for R to train: 0.00046945 
+loss for D to train: 0.00000056 
+total loss to train: 0.00592609 
+
+MSE of S to testing: 0.02169561 
+MSE of I to testing: 0.01835043 
+MSE of R to testing: 0.01027615 
+MSE of D to testing: 0.00001901 
+
+REL of S to testing: 0.00000024 
+REL of I to testing: 0.00756400 
+REL of R to testing: 0.00000604 
+REL of D to testing: 0.00005961 
+
+MSE for S with fixed parameters: 0.01959637 
+MSE for I with fixed parameters: 0.02414428 
+MSE for R with fixed parameters: 0.01023394 
+MSE for D with fixed parameters: 0.00003936 
+
+REL for S with fixed parameters: 0.00000022 
+REL for I with fixed parameters: 0.00995221 
+REL for R with fixed parameters: 0.00000601 
+REL for D with fixed parameters: 0.00012345 
+
+train epoch: 4700,time: 103.5915 
+learning rate: 0.000013033309 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00055632 
+loss for I to train: 0.00133120 
+loss for R to train: 0.00074332 
+loss for D to train: 0.00000091 
+total loss to train: 0.00933887 
+
+MSE of S to testing: 0.01928442 
+MSE of I to testing: 0.01937170 
+MSE of R to testing: 0.01004477 
+MSE of D to testing: 0.00001842 
+
+REL of S to testing: 0.00000021 
+REL of I to testing: 0.00798497 
+REL of R to testing: 0.00000590 
+REL of D to testing: 0.00005776 
+
+MSE for S with fixed parameters: 0.01977413 
+MSE for I with fixed parameters: 0.02409941 
+MSE for R with fixed parameters: 0.01025327 
+MSE for D with fixed parameters: 0.00004105 
+
+REL for S with fixed parameters: 0.00000022 
+REL for I with fixed parameters: 0.00993371 
+REL for R with fixed parameters: 0.00000602 
+REL for D with fixed parameters: 0.00012872 
+
+train epoch: 4800,time: 105.8474 
+learning rate: 0.000011483592 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00042673 
+loss for I to train: 0.00109299 
+loss for R to train: 0.00106189 
+loss for D to train: 0.00000155 
+total loss to train: 0.01216949 
+
+MSE of S to testing: 0.02000943 
+MSE of I to testing: 0.01857423 
+MSE of R to testing: 0.01010266 
+MSE of D to testing: 0.00001905 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00765625 
+REL of R to testing: 0.00000593 
+REL of D to testing: 0.00005974 
+
+MSE for S with fixed parameters: 0.01935454 
+MSE for I with fixed parameters: 0.02423659 
+MSE for R with fixed parameters: 0.01019432 
+MSE for D with fixed parameters: 0.00004264 
+
+REL for S with fixed parameters: 0.00000021 
+REL for I with fixed parameters: 0.00999026 
+REL for R with fixed parameters: 0.00000599 
+REL for D with fixed parameters: 0.00013373 
+
+train epoch: 4900,time: 108.0493 
+learning rate: 0.000010118144 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00041354 
+loss for I to train: 0.00064732 
+loss for R to train: 0.00045275 
+loss for D to train: 0.00000031 
+total loss to train: 0.00559463 
+
+MSE of S to testing: 0.02023727 
+MSE of I to testing: 0.01902322 
+MSE of R to testing: 0.01015169 
+MSE of D to testing: 0.00001813 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00784132 
+REL of R to testing: 0.00000596 
+REL of D to testing: 0.00005687 
+
+MSE for S with fixed parameters: 0.02048124 
+MSE for I with fixed parameters: 0.02388885 
+MSE for R with fixed parameters: 0.01035351 
+MSE for D with fixed parameters: 0.00003720 
+
+REL for S with fixed parameters: 0.00000023 
+REL for I with fixed parameters: 0.00984692 
+REL for R with fixed parameters: 0.00000608 
+REL for D with fixed parameters: 0.00011665 
+
+train epoch: 5000,time: 110.2432 
+learning rate: 0.000008915053 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00042482 
+loss for I to train: 0.00101890 
+loss for R to train: 0.00097439 
+loss for D to train: 0.00000153 
+total loss to train: 0.01121819 
+
+MSE of S to testing: 0.02005242 
+MSE of I to testing: 0.01935916 
+MSE of R to testing: 0.01014004 
+MSE of D to testing: 0.00001743 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00797980 
+REL of R to testing: 0.00000596 
+REL of D to testing: 0.00005465 
+
+MSE for S with fixed parameters: 0.02043072 
+MSE for I with fixed parameters: 0.02389511 
+MSE for R with fixed parameters: 0.01035027 
+MSE for D with fixed parameters: 0.00003597 
+
+REL for S with fixed parameters: 0.00000022 
+REL for I with fixed parameters: 0.00984950 
+REL for R with fixed parameters: 0.00000608 
+REL for D with fixed parameters: 0.00011281 
+
+train epoch: 5100,time: 112.4214 
+learning rate: 0.000007855015 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00023649 
+loss for I to train: 0.00060904 
+loss for R to train: 0.00046064 
+loss for D to train: 0.00000028 
+total loss to train: 0.00545747 
+
+MSE of S to testing: 0.02015163 
+MSE of I to testing: 0.01918005 
+MSE of R to testing: 0.01014744 
+MSE of D to testing: 0.00001649 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00790597 
+REL of R to testing: 0.00000596 
+REL of D to testing: 0.00005172 
+
+MSE for S with fixed parameters: 0.02131198 
+MSE for I with fixed parameters: 0.02366826 
+MSE for R with fixed parameters: 0.01047530 
+MSE for D with fixed parameters: 0.00003108 
+
+REL for S with fixed parameters: 0.00000023 
+REL for I with fixed parameters: 0.00975599 
+REL for R with fixed parameters: 0.00000615 
+REL for D with fixed parameters: 0.00009748 
+
+train epoch: 5200,time: 114.6170 
+learning rate: 0.000006921020 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00053603 
+loss for I to train: 0.00130512 
+loss for R to train: 0.00125830 
+loss for D to train: 0.00000198 
+total loss to train: 0.01446387 
+
+MSE of S to testing: 0.01987529 
+MSE of I to testing: 0.01913631 
+MSE of R to testing: 0.01011549 
+MSE of D to testing: 0.00001581 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00788794 
+REL of R to testing: 0.00000594 
+REL of D to testing: 0.00004958 
+
+MSE for S with fixed parameters: 0.02037106 
+MSE for I with fixed parameters: 0.02386477 
+MSE for R with fixed parameters: 0.01036575 
+MSE for D with fixed parameters: 0.00002778 
+
+REL for S with fixed parameters: 0.00000022 
+REL for I with fixed parameters: 0.00983700 
+REL for R with fixed parameters: 0.00000609 
+REL for D with fixed parameters: 0.00008711 
+
+train epoch: 5300,time: 116.7906 
+learning rate: 0.000006098081 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.02175470 
+loss for I to train: 0.01659374 
+loss for R to train: 0.05358154 
+loss for D to train: 0.00003927 
+total loss to train: 0.57494932 
+
+MSE of S to testing: 0.02021032 
+MSE of I to testing: 0.01896282 
+MSE of R to testing: 0.01013826 
+MSE of D to testing: 0.00001619 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00781642 
+REL of R to testing: 0.00000596 
+REL of D to testing: 0.00005076 
+
+MSE for S with fixed parameters: 0.02148037 
+MSE for I with fixed parameters: 0.02361749 
+MSE for R with fixed parameters: 0.01050623 
+MSE for D with fixed parameters: 0.00002802 
+
+REL for S with fixed parameters: 0.00000024 
+REL for I with fixed parameters: 0.00973507 
+REL for R with fixed parameters: 0.00000617 
+REL for D with fixed parameters: 0.00008788 
+
+train epoch: 5400,time: 119.1591 
+learning rate: 0.000005372993 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00031252 
+loss for I to train: 0.00066644 
+loss for R to train: 0.00051765 
+loss for D to train: 0.00000033 
+total loss to train: 0.00616195 
+
+MSE of S to testing: 0.02125046 
+MSE of I to testing: 0.01888119 
+MSE of R to testing: 0.01026790 
+MSE of D to testing: 0.00001621 
+
+REL of S to testing: 0.00000023 
+REL of I to testing: 0.00778278 
+REL of R to testing: 0.00000603 
+REL of D to testing: 0.00005084 
+
+MSE for S with fixed parameters: 0.02028267 
+MSE for I with fixed parameters: 0.02388686 
+MSE for R with fixed parameters: 0.01035460 
+MSE for D with fixed parameters: 0.00002749 
+
+REL for S with fixed parameters: 0.00000022 
+REL for I with fixed parameters: 0.00984610 
+REL for R with fixed parameters: 0.00000608 
+REL for D with fixed parameters: 0.00008620 
+
+train epoch: 5500,time: 121.3328 
+learning rate: 0.000004734121 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00046919 
+loss for I to train: 0.00066921 
+loss for R to train: 0.00047444 
+loss for D to train: 0.00000045 
+total loss to train: 0.00589186 
+
+MSE of S to testing: 0.01988942 
+MSE of I to testing: 0.01879740 
+MSE of R to testing: 0.01009424 
+MSE of D to testing: 0.00001649 
+
+REL of S to testing: 0.00000022 
+REL of I to testing: 0.00774824 
+REL of R to testing: 0.00000593 
+REL of D to testing: 0.00005172 
+
+MSE for S with fixed parameters: 0.01940887 
+MSE for I with fixed parameters: 0.02413422 
+MSE for R with fixed parameters: 0.01023775 
+MSE for D with fixed parameters: 0.00002858 
+
+REL for S with fixed parameters: 0.00000021 
+REL for I with fixed parameters: 0.00994806 
+REL for R with fixed parameters: 0.00000601 
+REL for D with fixed parameters: 0.00008962 
+
+train epoch: 5600,time: 123.5252 
+learning rate: 0.000004171213 
+penalty weights and biases for Paras: 0.00000000 
+loss for S to train: 0.00047384 
+loss for I to train: 0.00063235 
+loss for R to train: 0.00036291 
+loss for D to train: 0.00000056 
+total loss to train: 0.00474659 
+
+MSE of S to testing: 0.02066117 
+MSE of I to testing: 0.01880864 
+MSE of R to testing: 0.01019584 
+MSE of D to testing: 0.00001637 
+
+REL of S to testing: 0.00000023 
+REL of I to testing: 0.00775287 
+REL of R to testing: 0.00000599 
+REL of D to testing: 0.00005135 
+
+MSE for S with fixed parameters: 0.01876258 
+MSE for I with fixed parameters: 0.02433602 
+MSE for R with fixed parameters: 0.01015322 
+MSE for D with fixed parameters: 0.00002792 
+
+REL for S with fixed parameters: 0.00000021 
+REL for I with fixed parameters: 0.01003125 
+REL for R with fixed parameters: 0.00000596 
+REL for D with fixed parameters: 0.00008756 
+
